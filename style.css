@@ -1,6 +1,6 @@
 #heading
 {
-	height:50px;
+	height:66px;
 	width:100%;
 	background-color:lightcoral;
 	position: fixed;
@@ -16,7 +16,7 @@ p1
 	position:absolute;
 	top:0px;
 	color:white;
-	font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+	font-family: 'Pacifico', cursive;
 	font-size:250%;
 	font-weight:bold;
 }
@@ -26,7 +26,7 @@ p2
 	top:0px;
 	right:150px;
 	color:white;
-	font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+	font-family: 'Pacifico', cursive;
 	font-size:250%;
 	font-weight:bold;
 }
@@ -58,30 +58,31 @@ body
 	color:white;
 	position:absolute;
 	top:0px;
-	left:500px;
+	left:150px;
 	font-family:papyrus;
-	font-size:198%;
+	font-size:264%;
 }
 #l2
 {
 	color:white;
 	position:absolute;
 	top:0px;
-	left:600px;
+	left:280px;
 	font-family:papyrus;
-	font-size:198%;
+	font-size:264%;
 }
 #l3
 {
 	color:white;
 	position:absolute;
 	top:0px;
-	left:750px;
+	left:480px;
 	font-family:papyrus;
-	font-size:198%;
+	font-size:264%;
 }
 a.class1:link,a.class1:visited
 {
+	font-family:papyrus;
 	background-color:lightcoral;
 	text-align: center; 
     text-decoration: none;
@@ -89,6 +90,7 @@ a.class1:link,a.class1:visited
 	
 }
 a.class1:hover, a.class1:active {
+	font-family:papyrus;
     background-color:maroon;
 }
 h2
